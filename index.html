@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neeraj Yadav | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         * {
             margin: 0;
@@ -14,11 +13,11 @@
             font-family: Arial, sans-serif;
         }
         body {
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #121212;
+            color: #e0e0e0;
         }
         header {
-            background: #0073e6;
+            background: #1e1e1e;
             color: white;
             padding: 40px 20px;
             text-align: center;
@@ -41,37 +40,42 @@
             max-width: 900px;
             margin: 40px auto;
             padding: 20px;
-            background: white;
+            background: #1e1e1e;
             border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
         }
         h2 {
             color: #0073e6;
             margin-bottom: 10px;
         }
-        .project {
-            padding: 15px;
-            border-left: 4px solid #0073e6;
-            margin-bottom: 15px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background: #2a2a2a;
+            color: white;
         }
-        a {
-            color: #0073e6;
+        table, th, td {
+            border: 1px solid #444;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: #0073e6;
+        }
+        .github-btn {
+            display: inline-block;
+            background: #24292e;
+            color: white;
+            padding: 10px 20px;
+            font-size: 14px;
             text-decoration: none;
-            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: 0.3s;
         }
-        a:hover {
-            text-decoration: underline;
-        }
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        ul li {
-            padding: 8px 0;
-        }
-        .icon {
-            margin-right: 8px;
-            color: #0073e6;
+        .github-btn:hover {
+            background: #0366d6;
         }
         @media (max-width: 768px) {
             section {
@@ -87,27 +91,47 @@
 <body>
     <header>
         <h1>Neeraj Yadav</h1>
-        <p><i class="fas fa-laptop-code icon"></i>.NET Developer | Full-Stack Engineer</p>
-        <a href="Neeraj_Yadav_Resume.pdf" download class="btn"><i class="fas fa-download icon"></i>Download Resume</a>
+        <p>.NET Developer | Full-Stack Engineer</p>
+        <a href="Neeraj_Yadav_Resume.pdf" download class="btn">Download Resume</a>
     </header>
 
     <section id="about">
-        <h2><i class="fas fa-user icon"></i>About Me</h2>
+        <h2>About Me</h2>
         <p>Accomplished .NET developer with experience in designing, developing, and maintaining scalable web applications using C#, .NET Core, SQL, and Angular.</p>
     </section>
 
     <section id="skills">
-        <h2><i class="fas fa-tools icon"></i>Skills</h2>
-        <ul>
-            <li><i class="fab fa-microsoft icon"></i>C#, .NET Core, .NET MVC</li>
-            <li><i class="fas fa-database icon"></i>Entity Framework, LINQ</li>
-            <li><i class="fab fa-js-square icon"></i>Angular, JavaScript, HTML, CSS</li>
-            <li><i class="fas fa-server icon"></i>SQL, Git, Docker, Kubernetes</li>
-        </ul>
+        <h2>Skills</h2>
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Expertise Level</th>
+            </tr>
+            <tr>
+                <td>C#, .NET Core, .NET MVC</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Entity Framework Core, LINQ</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>.NET Web API, Rest APIs</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Angular, JavaScript, HTML, CSS</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>SQL, Git, Visual Studio</td>
+                <td>Advanced</td>
+            </tr>
+        </table>
     </section>
 
     <section id="experience">
-        <h2><i class="fas fa-briefcase icon"></i>Experience</h2>
+         <h2><i class="fas fa-briefcase icon"></i>Experience</h2>
         <h3>Nagarro Software Pvt. Ltd. (Oct 2022 - Nov 2023)</h3>
         <p>Worked on Reimbursement Portal & Result Management System, improving system efficiency and scalability.</p>
     </section>
@@ -117,25 +141,26 @@
         <div class="project">
             <h3><i class="fas fa-clipboard-list icon"></i>Reimbursement Portal</h3>
             <p>Implemented role-based authentication and enhanced scalability using Docker & Kubernetes.</p>
-            <a href="#"><i class="fab fa-github icon"></i>GitHub Link</a>
+            <a href="#"><i class="fab fa-github icon" download class="btn"></i>GitHub Link</a>
         </div>
         <div class="project">
             <h3><i class="fas fa-chart-line icon"></i>Result Management System</h3>
             <p>Developed a secure system for student result management, deployed on AWS.</p>
-            <a href="#"><i class="fab fa-github icon"></i>GitHub Link</a>
+            <a href="#"><i class="fab fa-github icon" download class="btn"></i>GitHub Link</a>
         </div>
         <div class="project">
             <h3><i class="fas fa-pen icon"></i>Blog Posting App</h3>
             <p>Created a blog app with CRUD functionality, Redux for state management, and RESTful API.</p>
-            <a href="#"><i class="fab fa-github icon"></i>GitHub Link</a>
+            <a href="#"><i class="fab fa-github icon"  download class="btn"></i>GitHub Link</a>
         </div>
     </section>
 
     <section id="contact">
-        <h2><i class="fas fa-envelope icon"></i>Contact</h2>
-        <p><i class="fas fa-envelope icon"></i>Email: <a href="mailto:neerajyadav2978@gmail.com">neerajyadav2978@gmail.com</a></p>
-        <p><i class="fab fa-linkedin icon"></i>LinkedIn: <a href="https://linkedin.com/in/neeraj-yadav-5b3a7321b" target="_blank">linkedin.com/in/neeraj-yadav</a></p>
-        <p><i class="fab fa-github icon"></i>GitHub: <a href="https://github.com/Neeraj102001" target="_blank">github.com/Neeraj102001</a></p>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:neerajyadav2978@gmail.com">neerajyadav2978@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/neeraj-yadav-5b3a7321b" target="_blank">linkedin.com/in/neeraj-yadav</a></p>
+        <p>GitHub: <a href="https://github.com/Neeraj102001" target="_blank">github.com/Neeraj102001</a></p>
+        <p>Phone: <a href="tel:+919876543210">+91 9876543210</a></p>
     </section>
 </body>
 </html>
