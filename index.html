@@ -3,10 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Neeraj Yadav | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            background: #fff;
+            color: #0073e6;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0073e6;
+        }
+        .project {
+            border-left: 4px solid #0073e6;
+            padding-left: 10px;
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm Neeraj Yadav, a software developer!</p>
+    <header>
+        <h1>Neeraj Yadav</h1>
+        <p>.NET Developer | Full-Stack Engineer</p>
+        <a href="Neeraj_Yadav_Resume.pdf" download class="btn">Download Resume</a>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Accomplished .NET developer with experience in designing, developing, and maintaining scalable web applications using C#, .NET Core, SQL, and Angular.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C#, .NET Core, .NET MVC</li>
+            <li>Entity Framework, LINQ</li>
+            <li>Angular, JavaScript, HTML, CSS</li>
+            <li>SQL, Git, Docker, Kubernetes</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Nagarro Software Pvt. Ltd. (Oct 2022 - Nov 2023)</h3>
+        <p>Worked on Reimbursement Portal & Result Management System, improving system efficiency and scalability.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Reimbursement Portal</h3>
+            <p>Implemented role-based authentication and enhanced scalability using Docker & Kubernetes.</p>
+            <a href="#">GitHub Link</a>
+        </div>
+        <div class="project">
+            <h3>Result Management System</h3>
+            <p>Developed a secure system for student result management, deployed on AWS.</p>
+            <a href="#">GitHub Link</a>
+        </div>
+        <div class="project">
+            <h3>Blog Posting App</h3>
+            <p>Created a blog app with CRUD functionality, Redux for state management, and RESTful API.</p>
+            <a href="#">GitHub Link</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:neerajyadav2978@gmail.com">neerajyadav2978@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/neeraj-yadav-5b3a7321b" target="_blank">linkedin.com/in/neeraj-yadav</a></p>
+        <p>GitHub: <a href="https://github.com/Neeraj102001" target="_blank">github.com/Neeraj102001</a></p>
+    </section>
 </body>
 </html>
