@@ -9,7 +9,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - 📄 **Downloadable Resume**: Get my latest resume in one click.
 - 🏗️ **Responsive Design**: Optimized for all devices.
 - 📩 **Contact Section**: Easy access to my email and LinkedIn profile.
-- 
+  
 ##  Getting Started
 To run this project locally:
 1. Clone the repository:
