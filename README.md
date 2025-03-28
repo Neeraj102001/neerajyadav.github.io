@@ -5,11 +5,12 @@ Welcome to my personal portfolio website!
 ##  About
 This is my personal portfolio website showcasing my skills, projects, and experience as a .NET Developer and Full-Stack Engineer. The site includes smooth scrolling, animations, and  feature for better user experience.
 
-## 🛠 Features
+##  Features
 - 📄 **Downloadable Resume**: Get my latest resume in one click.
 - 🏗️ **Responsive Design**: Optimized for all devices.
 - 📩 **Contact Section**: Easy access to my email and LinkedIn profile.
-## 🚀 Getting Started
+- 
+##  Getting Started
 To run this project locally:
 1. Clone the repository:
    ```bash
